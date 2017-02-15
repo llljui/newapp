@@ -1,0 +1,60 @@
+@charset "utf-8";
+.bg_top img{}
+.register_box_box{position: absolute;background-color: #ffffff;overflow: hidden;}
+.register_box{width: 420px;padding: 30px 40px;position: relative;overflow: hidden;text-align: center;}
+.register_title{width:100%;height:42px;line-height:48px;margin-bottom:10px;text-align: center; background-color: #f64853;color: #ffffff;font-size: 18px;}
+
+.login_title{width:100%;height:42px;line-height:48px;margin-bottom:10px;text-align: center; background-color: #f64853;color: #ffffff;font-size: 18px;}
+.text{width:100%;height:42px;line-height:30px;padding-left:44px;font-size:14px;color:#999;border:1px solid #e3e3e3;display: block;}
+.text:hover{border-color:#f64853;}
+.text2{width:252px;height:42px;line-height:30px;padding-left:44px;font-size:14px;color:#999;border:1px solid #e3e3e3;display: block;}
+.text2:hover{border-color:#f64853;}
+.tip1{color:red;font-size: 14px;display: none;}
+.username_text{background:url(../../images/register_icon.png) 11px 10px no-repeat;background-size: 22px;}
+.pwd_text{background:url(../../images/register_icon.png) 11px -40px no-repeat;background-size: 22px;}
+.pwd_text2{background:url(../../images/register_icon.png) 11px -91px no-repeat;background-size: 22px;}
+.phone_text{background:url(../../images/register_icon.png) 12px -144px no-repeat;background-size: 22px;}
+.verification_text{background:url(../../images/register_icon.png) 12px -194px no-repeat;background-size: 22px;}
+.send_verification:hover{background-color: red}
+.forget_pwd:hover{text-decoration: underline;}
+.login_btn{width: 48%;font-size: 16px;color: #f05414;}
+.login_btn:hover{color: #f05414;text-decoration: underline;}
+.register_btn{width: 48%;font-size: 16px;}
+.register_text{text-align: center;color: #646464;margin-top: 15px;}
+
+.tip_username{width:100%;background-color: #f05414;text-align: left;color: #ffffff;display: none;}
+.tip_pwd1,.tip_pwd2{width:100%;background-color: #f05414;text-align: left;color: #ffffff;display: none;}
+
+.banner_login_app{width: 360px;}
+.scan_ewm_title{text-align: center;font-size: 16px;}
+.ewm_box_box{margin-top: 10px;}
+.ewm_box{display:block;margin:6px 6px 0px 6px;}
+.tip{width:100%;background-color: #f05414;text-align: left;color: #ffffff;display: none;}
+.describe_text{clear:both; padding-top:10px;color:#646464;font-size: 12px;overflow: hidden;}
+.describe_text span{margin-top: 4px;}
+
+.logo{margin-left: 18px;position: absolute;bottom: 70px;}
+
+/*.bg_register{ background:url(../images/banner3.png) no-repeat; height:709px; padding-top:60px;}
+.register_box{width:1000px; height:650px; margin-left:auto; margin-right:auto; position:relative;}
+.write_info{ width:712px; height:470px; background-color:#FFF; z-index:1; position:absolute; top:90px; right:0px;}*/
+/*.register_box{ width:402px; height:390px; margin:40px auto;}
+.text{width:344px;height:50px;padding-left:56px;font-size:14px;color:#999;border:1px solid #e3e3e3;background:none; background-color:#0FF;}
+.text:hover{border:1px solid #F90}
+.tip{ margin-left:3px; color:#FFF;}
+.username_text{background:url(../../images/register_icon.png) 15px 11px no-repeat;}
+.input_property{ border:none; line-height:20px; margin-top:15px; width:330px;}
+.input_phoneNumber{ border:none; line-height:20px; margin-top:15px; width:250px;}
+.pwd_text1{background:url(../../images/register_icon.png) 16px -53px no-repeat;}
+.pwd_text2{background:url(../../images/register_icon.png) 16px -119px no-repeat;}
+.phone_number{background:url(../../images/register_icon.png) 16px -184px no-repeat;}
+.verification_btn{ background-color:#e95512; width:80px; line-height:50px; vertical-align:central; text-align:center; color:#FFF; cursor:pointer; float:right;}
+.verification_btn:hover{ background-color:#F60;}
+.verification_code{background:url(../../images/register_icon.png) 16px -249px no-repeat;}
+.btn{width:168px;height:50px;line-height:48px;text-align:center;border:none;background:#e95513;font-size:18px;color:#fff;font-weight:bolder; float:left;}
+.btn:hover{ background-color:#ff7800}
+.login_group{width:160px;height:50px;border:none;float:right;position:relative;}
+.have{font-size:18px; margin-top:3px;}
+.btn_group{height:20px; position:absolute; bottom:3px;}
+.login_btn{color:#e95512; position:relative;bottom:3px;display:inline-block; font-size:14px;}
+.login_btn:hover{ text-decoration:underline;}*/

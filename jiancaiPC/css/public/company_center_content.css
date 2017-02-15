@@ -1,0 +1,45 @@
+/*----------------------company_center_content-------------------------*/
+.content_box{margin-top: 20px;}
+.content{width: 1000px;height: auto;margin: 0 auto;overflow: hidden;}
+
+/*----------------basicinfo_box-----------------*/
+.basicinfo_box{display: block;overflow: hidden;}
+.box120px{width: 120px;height: 120px}
+.box120pxAndBorder{width: 120px;height: 120px;border: 1px solid #CCCCCC;background-color: #efeff4;margin-left: 10px;}
+.box2{padding: 12px 20px 12px 20px;}
+.companyname{font-size: 20px;font-weight: 600;display: block;}
+.identification{background-color: #f9ce1f;color: #ffffff;border-radius: 10px;font-size: 12px;height: 20px; padding: 4px 6px;vertical-align: middle;margin-top: 4px;margin-left: 6px;}
+.star_icon{color: #f9ce1f;font-size: 20px;margin-top: 10px;}
+.star_icon .fa{margin-right: 7px;}
+.username_box{margin-top: 9px;color:#8a8a8a}
+.myaccount,.published_job,.mycollect{padding: 14px 6px;color:#8a8a8a}
+.account_money,.published_job_number{font-size: 40px;color: #fb6770}
+.recharge{color: #fb6770}
+.recharge:hover{color: #fb6770}
+.record{color:#8a8a8a}
+.record:hover{color:#8a8a8a}
+/*----------------basicinfo_box-----------------*/
+/*----------------company_info_box-----------------*/
+.company_info_title{font-size: 18px;font-weight: bold;}
+.company_info_edit{color: #fb6770;cursor: pointer;}
+.company_info_edit:hover{text-decoration: underline;}
+.company_info_text,.company_info_text_edit{padding: 12px 2px 6px 2px;}
+.company_info_text div,.company_info_text_edit div,.company_info_text_edit_window div{padding: 3px 0px;}
+.company_info_text_edit input,.company_info_text_edit_window input{width: 360px;}
+
+.company_info_text_edit{display: none;}
+/*编辑公司基本信息弹出框*/
+.company_info_text_edit_window{width:872px;height: 600px; border: 3px solid #3c3c3c;padding: 12px;overflow: hidden;}
+.company_info_text_edit_window .company_introduction{display: block;width: 820px;height: 140px;margin-top: 2px;}
+.upload_pic{color:#0880d7;cursor: pointer;}
+.upload_pic:hover{text-decoration: underline;}
+.company_identification,.company_identification{width: 350px;height: 230px;border: 1px solid #c7c7c7;display: block;margin-top: 2px;}
+/*----------------company_info_box-----------------*/
+/*----------------publish_job_box-----------------*/
+.start,.stop{cursor: pointer;color:#0880d7}
+.start:hover,.stop:hover{text-decoration: underline;}
+.published_text,.stop_published_text{padding: 12px 2px 6px 2px;overflow: hidden;}
+.applicating_title,.stop_applicating_title{font-size: 16px;font-weight: 600;}
+.published_job_span{margin-top: 5px;float: left;margin-right: 40px;}
+/*----------------publish_job_box-----------------*/
+/*----------------------company_center_content----------------------------*/

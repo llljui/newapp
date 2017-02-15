@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta charset="UTF-8">
+    <title>发布岗位信息</title>
+    <link rel="Shortcut Icon" href="images/logo.png">
+    <link rel="stylesheet" type="text/css" href="css/public/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="css/public/bootstrap-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="css/public/button.css"/>
+    <link rel="stylesheet" type="text/css" href="css/public/base.css"/>
+    <link rel="stylesheet" type="text/css" href="css/public/top.css"/>
+    <link rel="stylesheet" type="text/css" href="css/private/publish_job.css"/>
+    <link rel="stylesheet" type="text/css" href="css/public/collect_list.css"/>
+    <link rel="stylesheet" type="text/css" href="css/public/modal_window.css"/>
+    <link rel="stylesheet" type="text/css" href="css/public/footer.css"/>
+    <link href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="top_box bgc_black1">
+        <div class="top" id="top">
+            <dl class="top_dl" id="top_dl">
+                <dd><a class="login">登录</a></dd>
+                <dd><span>|</span></dd>
+                <dd><a class="register">注册</a></dd>
+            </dl>
+            <div class="jiancai_app" id="jiancai_app"><img class="phone_icon" src="images/phone_icon.png"><span>简才APP</span></div>
+            <div class="server_hotline" id="server_hotline"><span>服务热线：</span><i>0871-56070707</i></div>
+        </div>
+    </div>
+    <div class="top_logo_line_box bgc_gray3">
+        <div class="top_logo_line" id="top_logo_line">
+            <img class="logo" id="logo" src="images/logo.png">
+            <span class="companny_vs bgc_gray4 fc_white" id="companny_vs">企业版</span>
+            <div class="select_city fl" id="select_city"><span class="selected_city" id="selected_city">杭州</span><!--<img src="images/arrow_dawn.png">--></div>
+            <img class="company_center_icon fr" id="company_center_icon" src="images/company_center.png">
+        </div>
+    </div>
+    <div class="content_box">
+        <div class="content">
+            <div class="title_linemrg0 clear_both"><span class="company_info_title fl">发布岗位信息</span></div>
+            <form action="#" method="post">
+                <div class="basic_info">
+                    <div class="overflow_hidden">
+                        <span class="importent fl"></span>
+                        <span class="fl mrgT7">职位名称：</span>
+                        <!--<input type="text" class="write_box fl" style="width:200px" placeholder="选择职业大类"/>-->
+                        <select class="job_name fl" style="width:200px">
+                            <option value ="0">选择职业大类</option>
+                            <option value ="1">客服行政</option>
+                            <option value="2">休闲娱乐</option>
+                            <option value="3">生产制造</option>
+                            <option value ="4">物流仓储</option>
+                            <option value ="5">房产金融</option>
+                            <option value="6">建筑装修</option>
+                            <option value ="7">人事行政</option>
+                        </select>
+                        <span class="importent fl mrgL20"></span>
+                        <select class="job_name2 fl" style="width:200px">
+                            <option value ="0">请选择具体职位</option>
+                            <option value ="1">客服</option>
+                            <option value="2">行政/文员</option>
+                            <option value="3">专员/助理</option>
+                        </select>
+                    </div>
+                    <div class="overflow_hidden">
+                        <span class="importent fl"></span>
+                        <span class="fl mrgT7">学历要求：</span>
+                        <select class="adu_request fl" style="width:200px">
+                            <option value ="不限">不限</option>
+                            <option value ="高中/中专/中技及以下">高中/中专/中技及以下</option>
+                            <option value="大专及同等学历">大专及同等学历</option>
+                            <option value="本科/学士及等同学历">本科/学士及等同学历</option>
+                            <option value ="硕士/研究生及等同学历">硕士/研究生及等同学历</option>
+                            <option value ="博士及以上">博士及以上</option>
+                            <option value="其他">其他</option>
+                        </select>
+                    </div>
+                    <div class="overflow_hidden">
+                        <span class="importent fl"></span>
+                        <span class="fl mrgT7">经验要求：</span>
+                        <select class="experience_request fl" style="width:200px">
+                            <option value ="不限">不限</option>
+                            <option value ="无经验">无经验</option>
+                            <option value="1年以下">1年以下</option>
+                            <option value="1-2年">1-2年</option>
+                            <option value ="2-3年">2-3年</option>
+                            <option value ="3-5年">3-5年</option>
+                            <option value="5-10年">5-10年</option>
+                            <option value="10年上">10年上</option>
+                        </select>
+                    </div>
+                    <div class="overflow_hidden">
+                        <span class="importent fl"></span>
+                        <span class="fl mrgT7">年龄要求：</span>
+                        <select class="age_request fl" style="width:200px">
+                            <option value ="不限">不限</option>
+                            <option value ="18岁以下">18岁以下</option>
+                            <option value="18岁~23岁">18岁~35岁</option>
+                            <option value="24岁~35岁">20岁~35岁</option>
+                            <option value ="35岁到65岁">35岁~65岁</option>
+                            <option value ="65岁以上">65岁以上</option>
+                        </select>
+                    </div>
+                    <div class="overflow_hidden">
+                        <span class="importent fl"></span>
+                        <span class="fl mrgT7">月&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;薪：</span>
+                        <select class="money_request fl" style="width:200px">
+                            <option value ="0">面议</option>
+                            <option value ="1">2000-3000</option>
+                            <option value="2">3000-4000</option>
+                            <option value="3">4000-6000</option>
+                            <option value ="4">6000-8000</option>
+                            <option value ="5">8000-10000</option>
+                            <option value ="5">10000-12000</option>
+                            <option value ="5">12000-15000</option>
+                            <option value ="5">15000以上</option>
+                        </select>
+                    </div>
+                    <div class="overflow_hidden">
+                        <span class="importent fl"></span>
+                        <span class="fl mrgT7">福&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;利：</span>
+                        <div class="boon_box fl">
+                            <span>五险一金</span><span>绩效奖金</span><span>年终奖金</span><span>住房补贴</span><span>话费补贴</span><span>交通补贴</span>
+                            <span>五险一金</span><span>绩效奖金</span><span>年终奖金</span><span>住房补贴</span><span>话费补贴</span><span>交通补贴</span>
+                            <span>五险一金</span><span>绩效奖金</span><span>年终奖金</span><span>住房补贴</span><span>话费补贴</span><span>交通补贴</span>
+                        </div>
+                        <span id="boon" class="block clear_both"></span>
+                    </div>
+                    <div class="overflow_hidden">
+                        <span class="importent fl"></span>
+                        <span class="fl mrgT7">岗位职责：</span>
+                        <textarea class="post_duty"></textarea>
+                    </div>
+                    <div class="overflow_hidden">
+                        <span class="importent fl"></span>
+                        <span class="fl mrgT7">任职要求：</span>
+                        <textarea class="post_request"></textarea>
+                    </div>
+                    <div class="overflow_hidden">
+                        <span class="importent fl"></span>
+                        <span class="fl mrgT7">工作地址：</span>
+                        <input type="text" class="detail_address fl" id="detail_address" style="width:500px" placeholder="列如：浙江省，杭州市，江干区，科技园路，65号"/>
+                        <input class="search fl" type="button" value="地图定位" onclick="searchByStationName()"/>
+                        <div class="fl">经度：<span class="lng"></span>，维度：<span class="lat"></span></div>
+                        <div id="dmap" class="dmap clear_both"></div>
+                    </div>
+                </div>
+                <div style=" width:680px;text-align:center;">
+                    <!--<input class="next_btn" type="button" value="确认发布"/>-->
+                    <button class="button36px button-caution button-circle2px fl button-sure">确认发布</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <div class="footer bgc_black2">
+        <dl>
+            <dd><img src="images/phone_icon2.png"><span>0871-56070707(8:30-18:00)</span></dd>
+            <dd><span>|</span></dd>
+            <dd><img src="images/address_icon.png"><span>杭州市余杭区良睦路1399号互联网村3栋203</span></dd>
+            <dd><span>|</span></dd>
+            <dd><img src="images/home_icon.png"><span>杭州简才网络科技有限公司</span></dd>
+        </dl>
+        <div class="copyright">©2015 Jiancai 浙ICP备14023790号-2 浙公网安备11010802017116号</div>
+        <div class="line_footer"></div>
+    </div>
+    <!--弹出框-->
+    <div class="list_detail_box">
+        <div class="list_detail">
+            <button class="btn_close_circle button-circle button-tiny">×</button>
+            <!--<button class="button button-primary button-circle button-small"><i class="fa fa-plus"></i></button>-->
+            <label>基本信息</label>
+            <div><span>姓名:</span><span>李小龙</span></div>
+            <div><span>性别:</span><span>男</span></div>
+            <div><span>年龄:</span><span>1992-07.25</span></div>
+            <div><span>最高学历:</span><span>本科</span></div>
+            <div><span>工作经验:</span><span>2年</span></div>
+            <label>工作期望</label>
+            <div><span>求职岗位:</span><span>客服经理</span></div>
+            <div><span>期望薪资:</span><span>5千~10千</span></div>
+            <div><span>到岗时间:</span><span>已离职，随时到岗</span></div>
+            <div><span>工作地址:</span><span>杭州市</span></div>
+            <label>工作经历</label>
+            <div>08年在一家房产公司担任销售经理，负责管理所有销售人员，提升整体销售业绩。</div>
+            <label>自我评价</label>
+            <div>责任感强、沉稳内敛、善于创新。本人性格开朗、为人诚恳、乐观向上、兴趣广泛、拥有较强的组织能力和适应能力、并具有较强的管理策划与组织管理协调能力。</div>
+            <!-- 发送面试邀请按钮 -->
+            <div class="bottom_btn">
+                <button class="button button-caution button-send">发送面试邀请</button>
+                <button class="button button-caution-collect button-collect"><i class="fa fa-star"></i><span class="collect">收藏</span></button>
+                <div>
+                    <!-- 发送面试邀请按钮 -->
+                    <!--扣钱弹出框-->
+                    <div class="subtract_jmoney_box">
+                        <div class="subtract_jmoney">
+                            <div class="text-center fs_14px mrgT20">邀请对方将暂扣1元，对方拒绝后返还。</div>
+                            <div class="bottom_btn_subjmoney">
+                                <button class="button button-caution button-circle4px fl button-sure">确定</button>
+                                <button class="button button-circle4px fr button-close">取消</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--扣钱弹出框-->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="js/public/top.js" type="text/javascript"></script>
+<script src="js/bootstrap.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/buttons.js"></script>
+<script type="text/javascript" src="js/private/publish_job.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=OWoUYKhz2hBdLTH5CTg65Kaq"></script>
+
+<script>
+    var map = new BMap.Map("dmap");  // 创建Map实例
+    var address="杭州市江干区";
+    map.centerAndZoom(address,13);      // 初始化地图,用城市名设置地图中
+    map.enableScrollWheelZoom();    //启用滚轮放大缩小，默认禁用
+    map.enableContinuousZoom();    //启用地图惯性拖拽，默认禁用
+    map.addControl(new BMap.NavigationControl());  //添加默认缩放平移控件
+    map.addControl(new BMap.OverviewMapControl()); //添加默认缩略地图控件
+    map.addControl(new BMap.OverviewMapControl({ isOpen: true, anchor: BMAP_ANCHOR_BOTTOM_RIGHT }));   //右下角，打开
+    var geoc = new BMap.Geocoder();
+    map.addEventListener("click", function(e){
+        var pt = e.point;
+        geoc.getLocation(pt, function(rs){
+            var addComp = rs.addressComponents;
+            alert(addComp.province + ", " + addComp.city + ", " + addComp.district + ", " + addComp.street + ", " + addComp.streetNumber);
+            $("#detail_address").val(addComp.province + ", " + addComp.city + ", " + addComp.district + ", " + addComp.street + ", " + addComp.streetNumber);
+        });
+    });
+    function searchByStationName() {
+        var keyword=$("#detail_address").val();
+        if(keyword==""){
+            alert("系统提示：'工作地点'不能为空！");
+            return;
+        }
+        //alert(keyword);
+        var localSearch = new BMap.LocalSearch(map);
+        localSearch.enableAutoViewport(); //允许自动调节窗体大小
+    　　//var keyword = document.getElementById("text_").value;
+    　　localSearch.setSearchCompleteCallback(function (searchResult) {
+            if (localSearch.getStatus() == BMAP_STATUS_SUCCESS){
+                map.clearOverlays();        //清除地图覆盖物
+            　　　　var poi = searchResult.getPoi(0);
+		　　　　//document.getElementById("result_").value = poi.point.lng + "," + poi.point.lat; //获取经度和纬度，将结果显示在文本框中
+                var p=new BMap.Point(poi.point.lng, poi.point.lat);
+                $(".lng").html(poi.point.lng);$(".lat").html(poi.point.lat);
+                var mainIcon = new BMap.Icon("images/main.png", new BMap.Size(22,32));
+                var marker = new BMap.Marker(p,{icon:mainIcon}); // 创建点
+                map.addOverlay(marker);
+                marker.setAnimation(BMAP_ANIMATION_BOUNCE);
+
+		　　　  map.centerAndZoom(poi.point, 15);
+            } else{
+                alert("系统提示：百度定位不到此地址,请精确到镇或街道（路），然后使用鼠标在地图上单击获取定位地址");
+            }
+　　});
+　　localSearch.search(keyword);//注意这里要添加地点
+    }
+
+
+</script>
+<script>
+    $(document).on("input propertychange", "textarea", function (e) {
+        var target = e.target;
+        // 保存初始高度，之后需要重新设置一下初始高度，避免只能增高不能减低。
+        var dh = $(target).attr('defaultHeight') || 0;
+        if (!dh) {
+            dh = target.clientHeight;
+            $(target).attr('defaultHeight', dh);
+        }
+
+        target.style.height = dh +'px';
+        var clientHeight = target.clientHeight;
+        var scrollHeight = target.scrollHeight;
+        if (clientHeight !== scrollHeight) { target.style.height = scrollHeight + 5 + "px";
+        }
+    });
+
+    //var json={"name":"林祺泰","sex":"林祺泰","name":"林祺泰","name":"林祺泰","name":"林祺泰","name":"林祺泰","name":"林祺泰"};
+    //alert(json.name);
+    <!--通过json插入全部省份-->
+    var all_provinces = [{"province":"广东省"},{"province":"江苏省"},{"province":"浙江省"},{"province":"安徽省"},{"province":"福建省"},{"province":"甘肃省"},{"province":"广西"},{"province":"贵州省"},{"province":"海南省"},{"province":"河北省"},{"province":"河南省"},{"province":"黑龙江省"},{"province":"湖北省"},{"province":"湖南省"},{"province":"吉林省"},{"province":"江西省"},{"province":"辽宁省"},{"province":"内蒙古"},{"province":"宁夏"},{"province":"青海省"},{"province":"山东省"},{"province":"山西省"},{"province":"陕西省"},{"province":"四川省"},{"province":"西藏"},{"province":"新疆"},{"province":"云南省"}];
+    for(var i=0;i<all_provinces.length;i++){
+        var province='<option value="'+all_provinces[i].province+'">'+all_provinces[i].province+'</option>';
+        $("#province").append(province);
+    }
+    <!--通过json插入二级地区-->
+    var citys = [{"city":"杭州"},{"city":"宁波"},{"city":"温州"},{"city":"绍兴"},{"city":"宁波"},{"city":"金华"},{"city":"台州"},{"city":"湖州"},{"city":"嘉兴"},{"city":"衢州"},{"city":"丽水"},{"city":"舟山"},{"city":"义乌"},{"city":"海宁"},{"city":"平湖"},{"city":"永康"},{"city":"东阳"},{"city":"嘉善"},{"city":"余姚"},{"city":"慈溪"},{"city":"乐清"},{"city":"永嘉"},{"city":"桐乡"},{"city":"瑞安"},{"city":"温岭"},{"city":"上虞"},{"city":"诸暨"},{"city":"宁海"},{"city":"三门"},{"city":"德清"},{"city":"象山"},{"city":"方家山"},{"city":"龙泉"}];
+    for(var i=0;i<citys.length;i++){
+        var city='<option value="'+citys[i].city+'">'+citys[i].city+'</option>';
+        $("#city").append(city);
+    }
+    <!--通过json插入三级地区-->
+    var regions = [{"region":"西湖区"},{"region":"江干区"},{"region":"下城区"},{"region":"上城区"},{"region":"余杭区"},{"region":"滨江区"},{"region":"拱墅区"},{"region":"萧山区"}];
+    for(var i=0;i<regions.length;i++){
+        var region='<option value="'+regions[i].region+'">'+regions[i].region+'</option>';
+        $("#region").append(region);
+    }
+</script>
+</html>

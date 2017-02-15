@@ -1,0 +1,25 @@
+/*right*/
+.right_box{ width: 758px; height:auto; float:right;position: relative;}
+
+/*list*/
+.talents{font-size:14px;margin-top: 10px;}
+.talents dl dd{padding:10px 0px 10px 0px; border-bottom:1px dashed #CCC;position: relative}
+.talents dl dd .head_pic{float: left; margin-left: 12px; margin-right: 12px;display: block;}
+.talents dl dd div{ margin:4px 0;}
+.talents dl dd .name{ font-size:16px; cursor:pointer;}
+.talents dl dd .name:hover{ text-decoration:underline}
+.talents dl dd .sex{margin-bottom: 3px;}
+.talents dl dd .time{ color:#8a8a8a;}
+.talents dl dd .job{ color:#fd3e35;margin-right: 24px;}
+.talents dl dd .info{ color:#8a8a8a;}
+.talents dl dd .time{ color:#8a8a8a;margin-right: 24px;}
+.talents dl dd .expect_pay{color:#e95513;}
+
+.talents dl dd:hover{background-color: rgba(199, 199, 199, 0.10);border-bottom:1px solid #fb6770}
+/*加载更多*/
+.check_more{margin-top: 18px;}
+/*right*/
+
+
+
+

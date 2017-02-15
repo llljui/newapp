@@ -1,0 +1,21 @@
+/* CSS Document */
+/*<!--基本信息-->*/
+.content_box{margin-top: 20px;}
+.content{width: 1000px;height: auto;margin: 0 auto;overflow: hidden;}
+
+.basic_info{ color:#323232; font-size:14px;  margin-left:0px; margin-top:10px;}
+.basic_info div{ padding-top:6px; padding-bottom:6px;}
+.basic_info div .importent{ height:30px; width:16px; background-color:#CCC; display:block; background:url('../../images/star.png') 0 7px no-repeat;}
+
+.job_name,.job_name2,.adu_request,.experience_request,.age_request,.money_request,.detail_address{ height:30px; border:solid 1px #ccc}
+.job_name:hover,.job_name2:hover,.adu_request:hover,.experience_request:hover,.age_request:hover,.money_request:hover,.detail_address:hover{border-color:#f64853; border-style:solid;}
+
+.boon_box{border: none;width: 900px;}
+.boon_box span{ padding:3px 5px; margin-right: 5px;margin-bottom: 5px; border:1px solid #CCCCCC;color:#646464;display:block; float:left; cursor:pointer;}
+
+.post_duty,.post_request{width: 900px;height: 100px;}
+
+.search{ background-color:#f64853;height:30px; text-align:center; color:#FFF; width:80px; margin-left:5px;border: none;}
+.search:hover{ background-color:#F90;}
+
+.dmap{width:670px;height:380px;margin-top: 50px; border: 1px solid gray;overflow:hidden;}

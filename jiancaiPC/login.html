@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8" />
+<title>登录页</title>
+<link rel="Shortcut Icon" href="images/logo.png">
+<link rel="stylesheet" type="text/css" href="css/public/base.css"/>
+<link rel="stylesheet" type="text/css" href="css/public/button.css"/>
+<link rel="stylesheet" type="text/css" href="css/private/login.css"/>
+
+</head>
+
+<body style="position: relative;background-color: #ffffff;margin: 0px;padding: 0px;">
+<div class="bg_top bgc">
+
+</div>
+<div class="login_box_box button-circle4px">
+    <div class="login_box">
+        <div class="left fl">
+            <div class="login_title border_radius2px">企业登录</div>
+            <input class="text username_text" id="username" type="text" placeholder="请输入用户名"><!--onblur="isTelphone('phone')"-->
+            <div id="tip1" class="tip1">请输入有效的手机号</div>
+            <input class="text pwd_text mrgT10" id="pwd" type="password" placeholder="请输入密码">
+            <div class="overflow_hidden"><a href="#" class="forget_pwd fr">忘记密码？</a></div>
+            <button class="button46px button-caution button-circle4px login_btn">登录</button>
+            <div class="register_text">还没有拉勾帐号？<a class="register fc" href="register.html">立即注册</a></div>
+        </div>
+        <div class="banner_login_app fr">
+            <div class="scan_ewm_title fc">找工作，扫一扫下载APP</div>
+            <div class="ewm_box_box">
+                <div class="ewm_box fl">
+                    <div class="tip">苹果版下载</div>
+                    <img src="images/ewm_Apple.png" width="140" height="140">
+                </div>
+                <div class="ewm_box fr">
+                    <div class="tip">安卓版下载</div>
+                    <img src="images/ewm_Android.png" width="140" height="140">
+                </div>
+            </div>
+            <div class="describe_text">
+                <span>1.为企业解决招聘问题，及时反馈，即时面试，快速招聘；</span><br>
+                <span>2.为人才解决舟车劳累问题，附近找工作，附近面试，快速入职。</span>
+            </div>
+        </div>
+        <img class="logo" src="images/logo_icon.png" width="36">
+    </div>
+
+</div>
+<!--<div style="background-color:#999; width:100%; height:350px;position: relative;">
+    <div class="banner_login">
+        <div class="title"><div class="current">企业登录</div><div style="display:none">人才登录</div></div>
+
+
+    </div>
+</div>-->
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/private/login.js"></script>
+<script>
+    var window_height=$(window).height();
+    $(".bg_top").css({"height":window_height/2});
+    $(".logo").css("margin-top",window_height/6);
+    function isTelphone(of) {
+        var phone=$('#'+of).val();
+        if(phone.search(/^(\+\d{2,3})?\d{11}$/) == -1){
+            $("#tip1").show();
+        }else {
+            $("#tip1").hide();
+        }
+    }
+</script>
+</body>
+</html>

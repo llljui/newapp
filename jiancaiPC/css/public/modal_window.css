@@ -1,0 +1,56 @@
+/*求职者信息弹出框*/
+.list_detail_box{width:800px;margin-bottom: 12px; border: 2px solid #f01e28;padding: 6px 16px 16px 16px;z-index: 1000;background-color: white;position:absolute; display: none;}
+.list_detail{position: relative;}
+.list_detail div{color:#646464}
+.list_detail label{margin-top: 10px;}
+.bottom_btn{margin-top: 12px;}
+/*扣钱弹出框*/
+.subtract_jmoney_box{width:360px;height:230px; border: 2px solid rgba(94, 94, 94, 0.86);padding:36px;z-index: 1024;background-color: white;position:absolute; display: none;}
+.subtract_jmoney{position: relative;}
+.bottom_btn_subjmoney{margin-top: 72px;}
+.close_icon{position: absolute; top:-16px; right: -26px;}
+.close_icon_pay{position: absolute; top:-13px; right: -13px;}
+
+/*空心三角形*/
+.bubble-arrow_up{
+    border-color:transparent transparent  #f01e28  transparent;
+    border-width: 10px;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -24px;
+    left:32px;
+}
+.bubble-arrow-up-inner {
+    border-color: transparent transparent #ffffff  transparent;
+    border-width: 10px;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -21px;
+    left: 32px;
+}
+/*收藏按钮*/
+.button-caution-collect,
+.button-caution-flat {
+    background-color: #646464;
+    color: #FFF; }
+.button-caution-collect:visited,
+.button-caution-flat:visited {
+    color: #FFF; }
+.button-caution-collect:hover, .button-caution-collect:focus,
+.button-caution-flat:hover,
+.button-caution-flat:focus {
+    background-color: #ff7680;
+    border-color: #ff7680;
+    color: #FFF; }
+.button-caution-collect:active, .button-caution-collect.active, .button-caution-collect.is-active,
+.button-caution-flat:active,
+.button-caution-flat.active,
+.button-caution-flat.is-active {
+    background-color: #f64c59;
+    border-color: #f64c59;
+    color: #ff1022; }
+.collect{margin-left: 10px;}

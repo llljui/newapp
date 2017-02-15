@@ -1,0 +1,86 @@
+/*right*/
+.right_box{ width: 758px; height:auto; float:right;position: relative;}
+
+.btn-red2 {
+    text-shadow: 0 1px 0 #fff;
+    background-image: -webkit-linear-gradient(top, #f7837d 0%, #fd584f 100%);
+    background-image:      -o-linear-gradient(top, #f7837d 0%, #fd584f 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f7837d), to(#fd584f));
+    background-image:         linear-gradient(to bottom, #f7837d 0%, #fd584f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe0e0e0', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    background-repeat: repeat-x;
+    border-color: #f7837d;
+}
+.btn-red2:hover,
+.btn-red2:focus {
+    background-color: #fd584f;
+    background-position: 0 -15px;
+}
+.btn-red2:active,
+.btn-red2.active {
+    background-color: #fd3e35;
+    border-color: #fd3e35;
+}
+.btn-red2.disabled,
+.btn-red2[disabled],
+fieldset[disabled] .btn-red2,
+.btn-red2.disabled:hover,
+.btn-red2[disabled]:hover,
+fieldset[disabled] .btn-red2:hover,
+.btn-red2.disabled:focus,
+.btn-red2[disabled]:focus,
+fieldset[disabled] .btn-red2:focus,
+.btn-red2.disabled.focus,
+.btn-red2[disabled].focus,
+fieldset[disabled] .btn-red2.focus,
+.btn-red2.disabled:active,
+.btn-red2[disabled]:active,
+fieldset[disabled] .btn-red2:active,
+.btn-red2.disabled.active,
+.btn-red2[disabled].active,
+fieldset[disabled] .btn-red2.active {
+    background-color: #f7837d;
+    background-image: none;
+}
+
+/*list*/
+.talents{font-size:14px;margin-top: 10px;}
+.talents dl dd{width: 376px;padding:10px 12px 10px 0px; border-bottom:1px dashed #CCC;float: left;position: relative}/*position:relative对应着空心三角形弹框*/
+.talents dl dd .head_pic{float: left; margin-left: 8px; margin-right: 8px;display: block;}
+.talents dl dd div{ margin:4px 0px;}
+.talents dl dd .name{ font-size:16px; cursor:pointer;}
+.talents dl dd .name:hover{ text-decoration:underline}
+.talents dl dd .sex{margin-bottom: 3px;}
+.talents dl dd .time{ color:#8a8a8a;}
+.talents dl dd .job{ color:#fd3e35;}
+.talents dl dd .info{ color:#8a8a8a;}
+.talents dl dd .time{ color:#8a8a8a;}
+.talents dl dd .expect_pay{color:#e95513;}
+
+.talents dl dd:hover{background-color: rgba(199, 199, 199, 0.10);border-bottom:1px solid #fb6770}
+
+/*分页*/
+
+.btn-paging{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #CCCCCC;
+    background-color: #ffffff;
+    border-radius: 2px;
+}
+.digit{}
+.btn-paging:hover{color:#ffffff;background-color:#f64853;border: 1px solid transparent;}
+.padding_current{color:#ffffff;background-color:#f64853;border: 1px solid transparent;}
+/*right*/
+

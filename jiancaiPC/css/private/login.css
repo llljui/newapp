@@ -1,0 +1,25 @@
+@charset "utf-8";
+.bg_top{text-align: center;}
+.bg_top img{}
+.login_box_box{position: absolute;background-color: #ffffff;overflow: hidden;}
+.login_box{width: 760px;padding: 30px 40px;position: relative;overflow: hidden;}
+.login_title{width:100%;height:42px;line-height:48px;margin-bottom:10px;text-align: center; background-color: #f64853;color: #ffffff;font-size: 18px;}
+.text{width:280px;height:42px;line-height:30px;padding-left:44px;font-size:14px;color:#999;border:1px solid #e3e3e3;display: block;}
+.text:hover{border-color:#f64853;}
+.tip1{color:red;font-size: 14px;display: none;}
+.username_text{background:url(../../images/register_icon.png) 11px 10px no-repeat;background-size: 22px;}
+.pwd_text{background:url(../../images/text_icon.png) 13px -35px no-repeat;}
+.forget_pwd{color:#f64853;text-decoration: none;margin-top: 6px;margin-bottom: 6px;}
+.forget_pwd:hover{text-decoration: underline;}
+.login_btn{width: 100%;font-size: 16px;}
+.register_text{text-align: center;color: #646464;margin-top: 15px;}
+
+.banner_login_app{width: 360px;}
+.scan_ewm_title{text-align: center;font-size: 16px;}
+.ewm_box_box{margin-top: 10px;}
+.ewm_box{display:block;margin:6px 6px 0px 6px;}
+.tip{width:140px;background-color: #646464;text-align: center;color: #ffffff;}
+.describe_text{clear:both; padding-top:10px;color:#646464;font-size: 12px;overflow: hidden;}
+.describe_text span{margin-top: 4px;}
+
+.logo{margin-left: 18px;position: absolute;bottom: 70px;}

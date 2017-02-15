@@ -1,0 +1,8 @@
+/*footer*/
+.footer{text-align: center; margin-top: 24px;}
+.footer dl{width: 890px; margin: 0px auto;padding: 20px 0px 16px 0px;display: block;}
+.footer dl dd{float: left;margin:0px 17px;}
+.footer dl dd img{display: block;float: left}
+.footer dl dd span{color: white;margin-left: 5px;float: left}
+.copyright{margin-top: 10px;color: #9d9c9c;}
+/*footer*/

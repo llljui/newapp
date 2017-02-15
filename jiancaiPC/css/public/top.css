@@ -1,0 +1,30 @@
+/*----------------------top_box-------------------------*/
+.top_box{}
+/*注册登录模块*/
+.top{width: 1160px;height: 34px;margin: 0 auto;overflow: hidden;color: #ffffff;}
+.top_dl{overflow: hidden;float: left}/*margin-top: 7px;*/
+.top dl dd{float: left;margin-right: 7px;}
+.top dl dd a{color: white;cursor: pointer;}
+.top dl dd span{display: block;}
+/*简才APP手机下载*/
+.phone_icon{margin-left: 100px;}
+.jiancai_app{float: left;}
+.jiancai_app span{margin-left: 4px;}
+/*服务热线*/
+.server_hotline{float: right;}
+.server_hotline i{color: #9d2e34;font-size: 18px;}
+/*----------------------top_box-------------------------*/
+
+/*----------------------top_logo_line_box----------------------------*/
+.top_logo_line_box{border-bottom: 1px solid #CCCCCC}
+.top_logo_line{width: 1000px;height: 66px;margin: 0 auto;overflow: hidden;}
+/*logo*/
+.logo{display: block;float: left;margin-top: 10px;}
+/*企业版*/
+.companny_vs{float: left;margin-left: 6px;border-radius: 10px;padding: 0px 6px;margin-top: 23px;}
+/*选择城市*/
+.select_city{margin-left: 20px;margin-top: 22px;}
+.select_city .img{display: block;}
+.selected_city{font-size: 16px;}
+.company_center_icon{margin-top: 18px;}
+/*----------------------top_logo_line_box----------------------------*/

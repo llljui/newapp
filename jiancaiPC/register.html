@@ -1,0 +1,93 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>登录页</title>
+<link rel="Shortcut Icon" href="images/logo.png">
+<link rel="stylesheet" type="text/css" href="css/public/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="css/public/base.css"/>
+<link rel="stylesheet" type="text/css" href="css/public/button.css"/>
+<link rel="stylesheet" type="text/css" href="css/private/register.css"/>
+
+</head>
+
+<body style="position: relative;background-color: #ffffff;margin: 0px;padding: 0px;">
+<div class="bg_top bgc">
+
+</div>
+<div class="register_box_box button-circle4px">
+    <form class="register_box">
+        <div class="register_title border_radius2px">企业注册</div>
+        <div class="mrgT10">
+            <input class="text username_text" id="username" type="text" placeholder="请输入您的用户名" onfocus="show_tip('tip_username')" onblur="is_username('username')">
+            <div class="tip_username">由6-20位数字和字母组成，用于登录</div>
+        </div> <!--onblur="isTelphone('phone')"-->
+        <div class="mrgT10">
+            <input class="text pwd_text" id="pwd1" type="password" placeholder="请输入您的密码" onfocus="show_tip('tip_pwd1')" onblur="is_pwd1('pwd1')">
+            <div class="tip_pwd1">由6-20位数字和字母组成，用于登录</div>
+        </div>
+        <div class="mrgT10">
+            <input class="text pwd_text2" id="pwd2" type="password" placeholder="请确认您的密码"  onfocus="show_tip('tip_pwd2')" onblur="is_pwd2('pwd2')">
+            <div class="tip_pwd2">两次密码保持一致</div>
+        </div>
+        <div class="mrgT10" style="width:100%;overflow: hidden;">
+            <input class="text2 phone_text fl" id="phone" type="text" placeholder="请输入您的手机号">
+            <button class="button42px fr send_verification" id="send_verification">短信验证</button>
+        </div>
+        <input class="text verification_text mrgT10" id="verification" type="text" placeholder="请输入您的短信验证码">
+        <div class="mrgT10">
+            <button class="button42px button-caution button-circle4px register_btn fl">注册</button>
+            <a class="button42pxnobgc button-circle4px fr login_btn bgc_white" href="login.html">直接登录<img class="" style="margin-bottom: 4px;margin-left: 2px;" src="images/arrow_right_circle.png" width="20"></a>
+        </div>
+    </form>
+</div>
+
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/private/register.js"></script>
+<script>
+    var window_height=$(window).height();
+    $(".bg_top").css({"height":window_height/2});
+    //$(".logo").css("margin-top",window_height/6);
+    function isTelphone(of) {
+        var phone=$('#'+of).val();
+        if(phone.search(/^(\+\d{2,3})?\d{11}$/) == -1){
+            $("#tip1").show();
+        }else {
+            $("#tip1").hide();
+        }
+    }
+    //提示框的出现
+    function show_tip(e){
+        $("."+e).slideDown(300);
+    }
+    //判断用户名
+    function is_username(e){
+        if($("#"+e).val().length<6||$("#"+e).val().length>20){
+            /*alert("您的用户名不符合规范，请修正");*/
+            $("#"+e).focus();
+        }else{
+            $(".tip_username").slideUp(300);
+        }
+    }
+    //判断密码
+    function is_pwd1(e){
+        if($("#"+e).val().length<6||$("#"+e).val().length>20){
+           /* alert("您的密码名不符合规范，请修正");*/
+            $("#"+e).focus();
+        }else{
+            $(".tip_pwd1").slideUp(300);
+        }
+    }
+    //判断密码2
+    function is_pwd2(e){
+        //alert($("#pwd1").val()+","+$("#pwd2").val());
+        if($("#pwd1").val()==$("#pwd2").val()){
+            $(".tip_pwd2").slideUp(300);
+        }else{
+           /* alert("两次密码不一致");*/
+            $("#"+e).focus();
+        }
+    }
+</script>
+</body>
+</html>
